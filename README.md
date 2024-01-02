@@ -11,8 +11,11 @@ Front end utilize a generic project layout to which two a button module is attac
 Download the zip file in code tab, unzip it at prefferable directory and run following commands via cmd in the chosen directory.                                                                                                                                                                                                                                                    
 
 Fast API installation and uvicorn server startup
+
 pip install "fastapi[all]"
 uvicorn main:app --reload
 
 Sveltekit installation and startup
+
 npm run dev -- --open
+
