@@ -15,6 +15,7 @@ Fast API installation and uvicorn server startup
 pip install "fastapi[all]"
 uvicorn main:app --reload
 
+
 Sveltekit installation and startup
 
 npm run dev -- --open
