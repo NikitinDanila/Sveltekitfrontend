@@ -18,6 +18,8 @@ uvicorn main:app --reload - for uvicorn startup
 
 
 Sveltekit installation and startup
+
 nmp install - for Sveltekit installation
+
 npm run dev -- --open - for sveltekit startup
 
