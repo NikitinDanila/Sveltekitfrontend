@@ -1,38 +1,18 @@
-# create-svelte
+# FrontEnd Sveltekit and Backend Fast API project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Backend using Fast API
+Backend consists of a single GET function. That function incorporates a getmessage function that randomly generates int in range of 0 to 99, converts it to string and adds a message in a "Hello XX" format where XX is a random number.
+CORSMiddleware library is added in order to handle CORS errors and run both frondend and Backend on localhost.
 
-## Creating a project
+# Frontend using Sveltekit
+Front end utilize a generic project layout to which two a button module is attached that handles button click and an input window which shows the message received from the backend.
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Installation guide
+Download the zip file in code tab, unzip it at prefferable directory and run following commands via cmd in the chosen directory.                                                                                                                                                                                                                                                    
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Fast API installation and uvicorn server startup
+pip install "fastapi[all]"
+uvicorn main:app --reload
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
+Sveltekit installation and startup
 npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
