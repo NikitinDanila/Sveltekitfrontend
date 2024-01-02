@@ -17,6 +17,7 @@ pip install "fastapi[all]" - for Fast API installation
 uvicorn main:app --reload - for uvicorn startup
 
 
+
 Sveltekit installation and startup
 
 nmp install - for Sveltekit installation
