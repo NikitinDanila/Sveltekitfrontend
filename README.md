@@ -12,15 +12,15 @@ Download the zip file in code tab, unzip it at prefferable directory and run fol
 
 Fast API installation and uvicorn server startup
 
-pip install "fastapi[all]" - for Fast API installation
+**pip install "fastapi[all]"** - for Fast API installation
 
-uvicorn main:app --reload - for uvicorn startup
+**uvicorn main:app**--reload - for uvicorn startup
 
 
 
 Sveltekit installation and startup
 
-nmp install - for Sveltekit installation
+**nmp install** - for Sveltekit installation
 
-npm run dev -- --open - for sveltekit startup
+**npm run dev**-- --open - for sveltekit startup
 
